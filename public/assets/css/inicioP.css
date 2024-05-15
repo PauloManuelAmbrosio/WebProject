@@ -1,0 +1,86 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white; /* Cor de fundo azul claro */
+            color: #333; /* Cor do texto */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: inline;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+
+        }
+
+        testo{
+            text-align: right;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px; /* Ajuste conforme necessário */
+            left: 20px; /* Ajuste conforme necessário */
+            /*z-index: -1;  Para colocar a imagem por trás do texto */
+        }
+
+        .login-link {
+           position: absolute;
+           top: 10px;
+           right: 10px;
+       }
+
+       .login-link a {
+           color: #fff; /* Cor do texto */
+           text-decoration: none; /* Remover sublinhado */
+           padding: 8px 12px; /* Espaçamento interno */
+           background-color: #007bff; /* Cor de fundo */
+           border-radius: 5px; /* Borda arredondada */
+       }
+
+       .login-link a:hover {
+          background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+       }
